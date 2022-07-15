@@ -68,7 +68,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 51px;
   color: #fff;
 }
 header nav {
@@ -115,7 +115,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
+  width: 15px;
 }
 
 form button {
@@ -147,6 +147,10 @@ header {
   justify-content: space-between;
   padding: 0 30px;
   align-items: center;
+}
+
+.logo {
+  font-size: 72px;
 }
 
 form  {
