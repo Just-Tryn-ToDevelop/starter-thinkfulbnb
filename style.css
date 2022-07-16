@@ -141,41 +141,50 @@ footer p {
 }
 
 /* -------  Media Query ------- */
-@media all and (min-width: 900px) {
+@media all and (min-width: 480px) {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 0 30px;
+  padding: 0 10px;
   align-items: center;
 }
 
 .logo {
-  font-size: 72px;
+  font-size: 41px;
 }
 
 form  {
   display: flex;
   justify-content: space-between;
+  width: 97%;
 }
 
 div.form {
 flex-direction: column;
+
 }
  
 form input, form label, form select {
-  width: 100%;
+  margin: 0px;
+  width: 100%
 } 
 
 form label.item {
-  margin-bottom: 0px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
 }
 
 form input.item, form select.item {
-  margin-top: 0px;
+  margin: 0;
 }
 
 form button {
-  width: 16%;
+  width: 10%;
+  font-size: 12px;
+  padding: 2px;
+  margin-top: 10px;
+  /* padding-right: 40px; */
 }
 
  .about {
